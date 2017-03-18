@@ -26,7 +26,7 @@ namespace Task3
             BitArray firstNumberBin = new BitArray(new int[] { firstNumber });
             BitArray secondNumberBin = new BitArray(new int[] { secondNumber });
             if (leftPosition > rightPosition)
-                throw new IndexOutOfRangeException();
+                throw new ArgumentException();
             int j = 0;
             for (int i = leftPosition; i <= rightPosition; i++)
             {

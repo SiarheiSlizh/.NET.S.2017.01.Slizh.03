@@ -37,8 +37,8 @@ namespace TestingTasks1_3.CUI
             #region Testing Task3
             Console.WriteLine("Task 3");
             Console.WriteLine(BinaryOperations.BinaryNumbersOperation(8, 15, 0, 0));
-            Console.WriteLine(BinaryOperations.BinaryNumbersOperation(0, 15, 30, 30));
-            Console.WriteLine(BinaryOperations.BinaryNumbersOperation(15, -15, 0, 4));
+            Console.WriteLine(BinaryOperations.BinaryNumbersOperation(0, 15, 0, 30));
+            Console.WriteLine(BinaryOperations.BinaryNumbersOperation(-8, -15, 1, 4));
             Console.WriteLine(BinaryOperations.BinaryNumbersOperation(15, int.MaxValue, 3, 5));
             //Console.WriteLine(BinaryOperations.BinaryNumbersOperation(15, int.MaxValue, 5, 3));
             #endregion
